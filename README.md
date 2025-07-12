@@ -30,11 +30,6 @@ This repository contains my completed tasks for the **Data Science & Analytics I
 - Objective: Predict loan default likelihood.
 - Techniques: Data cleaning, Logistic Regression, Decision Tree
 
-## 🎯 Objective
-To build a machine learning model that predicts whether a loan should be approved based on applicant data such as income, credit history, education, employment status, and more.
-
-This task is part of the DevelopersHub Internship project and aims to apply classification algorithms (Decision Tree and Logistic Regression) on real-world loan approval data.
-
 ---
 
 ## 🗃️ Dataset
