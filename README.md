@@ -9,8 +9,6 @@ This repository contains my completed tasks for the **Data Science & Analytics I
 - Dataset: Iris Dataset
 - Objective: Understand and visualize the dataset.
 - Tools: pandas, seaborn, matplotlib
-- # Task 1: Exploring and Visualizing the Iris Dataset
-
 
 ## Steps Covered
 - Data loading from CSV
@@ -31,7 +29,6 @@ This repository contains my completed tasks for the **Data Science & Analytics I
 - Dataset: Loan Prediction Dataset (Kaggle)
 - Objective: Predict loan default likelihood.
 - Techniques: Data cleaning, Logistic Regression, Decision Tree
-- # Task 2: Credit Risk Prediction
 
 ## 🎯 Objective
 To build a machine learning model that predicts whether a loan should be approved based on applicant data such as income, credit history, education, employment status, and more.
@@ -105,7 +102,6 @@ Both models were evaluated using:
 ### 🔹 Task 5: Personal Loan Acceptance Prediction
 - Dataset: Bank Marketing Dataset (UCI)
 - Objective: Predict personal loan acceptance using classification.
-# Task 5: Personal Loan Acceptance Prediction
 
 ## 🗂 Dataset
 - Source: UCI Bank Marketing Dataset
