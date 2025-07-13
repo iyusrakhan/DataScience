@@ -118,8 +118,30 @@ Predict which bank customers are likely to leave the bank using classification t
 ✔ Completed – Model built, evaluated, and interpreted.
 ---
 
+# Task 4: Predicting Insurance Claim Amounts
 
+## 🎯 Objective
+Estimate a person's medical insurance charges based on their age, BMI, smoking status, and other personal factors using a regression model.
 
+## 🗂 Dataset
+- Source: Medical Cost Personal Dataset (`insurance.csv`)
+- Target variable: `charges` (insurance claim amount)
+
+## 🛠️ Process
+- Encoded categorical features (`sex`, `smoker`, `region`) using Label Encoding
+- Visualized relationships between `age`, `bmi`, `smoker` and `charges`
+- Trained a Linear Regression model
+- Evaluated performance using:
+  - **MAE** (Mean Absolute Error)
+  - **RMSE** (Root Mean Squared Error)
+
+## 🔍 Key Insights
+- **Smokers** have significantly higher charges
+- **BMI** and **age** positively influence insurance costs
+- Linear Regression provides a good baseline for cost prediction
+
+## ✅ Status
+✔ Completed – model trained, evaluated, and insights visualized
 
 
 ---
