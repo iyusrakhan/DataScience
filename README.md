@@ -91,6 +91,36 @@ Both models were evaluated using:
 ✔ Completed – Both models implemented, evaluated, and optimized.
 
 
+---
+
+# Task 3: Customer Churn Prediction
+
+## 🎯 Objective
+Predict which bank customers are likely to leave the bank using classification techniques and analyze what influences their decision.
+
+## 🗂 Dataset
+- Source: Churn Modelling Dataset (`Churn_Modelling.csv`)
+- Target: `Exited` (1 = churned, 0 = stayed)
+
+## 🛠️ Process
+- Removed irrelevant columns (`RowNumber`, `CustomerId`, `Surname`)
+- Encoded categorical features (`Gender` with Label Encoding, `Geography` with One-Hot Encoding)
+- Scaled numeric features using `StandardScaler`
+- Trained a `RandomForestClassifier` with tuned hyperparameters
+- Evaluated using accuracy, confusion matrix, and classification report
+
+## 🔍 Feature Insights
+- **Age**, **Balance**, and **IsActiveMember** were the top indicators of churn.
+- Customers from certain regions (e.g., **Germany**) were more likely to churn.
+- Inactive members with high balances showed the highest churn risk.
+
+## ✅ Status
+✔ Completed – Model built, evaluated, and interpreted.
+---
+
+
+
+
 
 ---
 
